@@ -1,0 +1,158 @@
+@import url(https://fonts.googleapis.com/css?family=Pacifico);
+@import url(https://fonts.googleapis.com/css?family=Signika:400,600,700,300);
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  background-color: #151515;
+  color: #efefef;
+  font-family: Signika, Arial, sans-serif;
+}
+
+body {
+  margin: 0 auto 0 auto;
+  width: 1170px;
+}
+
+.top-images {
+  width: 100%;
+  height: 300px;
+
+  font-family: Pacifico, Arial, sans-serif;
+}
+
+.top-images .image-block {
+  width: 33.333%;
+  height: 300px;
+
+  background-color: #151515;
+  float: left;
+}
+
+.top-images h2 {
+  margin-left: 10px;
+  font-size: 40px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+}
+
+.top-images .imagine {
+  background-image: url(images/imagine.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.top-images .explore {
+  background-image: url(images/explore.jpg);
+  background-size: cover;
+  background-position: bottom center;
+}
+
+.top-images .play {
+  background-image: url(images/play.jpg);
+  background-size: cover;
+  background-position: bottom right;;
+}
+
+main {
+  width: 100%;
+  text-align: center;
+  position: relative;
+}
+
+main .logo {
+  float: left;
+  margin: 35px 30px 30px 30px;
+}
+
+main h1 {
+  font-size: 55px;
+  padding: 25px 10px;
+}
+
+main h3 {
+  font-size: 30px;
+  font-style: italic;
+}
+
+main .signup-form {
+  width: 300px;
+  margin: 0 auto;
+  padding: 40px 20px 20px 30px;
+}
+
+main .signup-form input {
+  display: block;
+  box-sizing: border-box;
+  margin: 0 4% 10px 0;
+  padding: 5px;
+  width: 300px;
+
+  border: none;
+  border-radius: 2px;
+
+  font-family: Signika, sans-serif;
+  font-size: 20px;
+  color: #151515;
+}
+
+main .signup-form input[type=submit] {
+  background-color: #80CC28;
+  background: linear-gradient(180deg, #80CC28, #80CC28 80%, #40B020);
+  font-weight: bold;
+  font-size: 25px;
+  cursor: pointer;
+}
+
+main p {
+  width: 600px;
+  margin: 0 auto;
+  padding: 0 0 40px 0;
+  font-size: 20px;
+}
+
+main .coming-soon {
+  position: absolute;
+  left: 20px;
+  bottom: 20px;
+  width: 100px;
+  height: 100px;
+  background-color: blue;
+}
+
+.quote-block {
+  clear: both;
+  width: 100%;
+  height: 400px;
+  background-image: url(images/ScienceKitty-product.jpg);
+  background-size: cover;
+  color: #151515;
+  font-family: pacifico, sans-serif;
+
+  position: relative;
+}
+
+.quote-block blockquote {
+  width: 1000px;
+  margin: 0 auto;
+  font-size: 40px;
+  text-shadow: 0 0 10px rgba(0,0,0,0.1);
+  text-align: center;
+  padding: 80px
+}
+
+.quote-block cite{
+  font-family: signika, sans-serif;
+  font-size: 20px
+}
+
+.quote-block .hubble-explanation {
+  position: absolute;
+  bottom: 10px;
+  border-top: 1px solid #808080;
+  font-family: Signika, sans-serif;
+  font-size: 15px;
+  padding: 10px 0 0 0;
+}
