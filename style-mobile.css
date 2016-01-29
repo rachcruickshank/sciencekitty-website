@@ -1,3 +1,11 @@
+.top-images {
+  height: 30vh;
+}
+
+.top-images .image-block {
+  height: 30vh;
+}
+
 .top-images .play {
   background-position: 82% bottom;
 }
@@ -49,7 +57,7 @@ main .launching-soon {
 }
 
 .quote-block {
-  height: 350px;
+  height: auto;
   background-position: 35% bottom;
 }
 
