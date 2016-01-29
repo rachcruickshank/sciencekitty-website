@@ -1,9 +1,9 @@
-body {
-  width: 100%;
-}
-
 .top-images .play {
   background-position: 82% bottom;
+}
+
+main {
+  width: 100%;
 }
 
 main .logo {
@@ -54,9 +54,9 @@ main .launching-soon {
 }
 
 .quote-block blockquote {
-    width: auto;
-    font-size: 30px;
-    padding: 60px 10px;
+  width: auto;
+  font-size: 40px;
+  padding: 60px 10px;
 }
 
 .quote-block cite {
@@ -64,24 +64,28 @@ main .launching-soon {
 }
 
 footer {
-  font-size: 20px;
+  font-size: 10px;
+  width: 100%;
 }
 
 footer .hubble-explanation {
-  font-size: 15pt;
+  font-size: 10px;
   padding: 10px 10px 60px 10px;
 }
 
 footer .becky {
-  padding: auto;
+  display: block;
+  padding: 0;
 }
 
 footer .cratejoy {
+  display: block;
   padding: 0 0 60px 0;
   float: none;
 }
 
 footer .all-rights {
+  display: block;
   float: none;
   padding: 60px 0 0 0;
 }
