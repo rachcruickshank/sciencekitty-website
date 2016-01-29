@@ -1,0 +1,87 @@
+body {
+  width: 100%;
+}
+
+.top-images .play {
+  background-position: 82% bottom;
+}
+
+main .logo {
+  width: 350px;
+  padding-top: 80px;
+  float: none;
+  margin: 0;
+}
+
+main h1 {
+  font-size: 40px;
+  padding: 60px 10px 30px 10px;
+}
+
+main h3 {
+  font-size: 25px;
+}
+
+main .signup-form {
+  width: 100%;
+  padding: 60px 10px 30px 10px;
+  box-sizing: border-box;
+}
+
+main .signup-form input {
+  width: 100%;
+  font-size: 35px;
+}
+
+main .signup-form input[type=submit] {
+  font-size: 35px;
+}
+
+main p {
+  width: auto;
+  padding: 0 10px 40px 10px;
+}
+
+main .launching-soon {
+  position: static;
+  width: 300px;
+  padding: 60px 0 80px 0;
+}
+
+.quote-block {
+  height: 350px;
+  background-position: 35% bottom;
+}
+
+.quote-block blockquote {
+    width: auto;
+    font-size: 30px;
+    padding: 60px 10px;
+}
+
+.quote-block cite {
+  font-size: 25px;
+}
+
+footer {
+  font-size: 20px;
+}
+
+footer .hubble-explanation {
+  font-size: 15pt;
+  padding: 10px 10px 60px 10px;
+}
+
+footer .becky {
+  padding: auto;
+}
+
+footer .cratejoy {
+  padding: 0 0 60px 0;
+  float: none;
+}
+
+footer .all-rights {
+  float: none;
+  padding: 60px 0 0 0;
+}
