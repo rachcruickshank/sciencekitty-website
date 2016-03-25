@@ -1,9 +1,9 @@
 .top-images {
-  height: 30vh;
+  height: 45vh;
 }
 
 .top-images .image-block {
-  height: 30vh;
+  height: 45vh;
 }
 
 .top-images .play {
@@ -14,46 +14,58 @@ main {
   width: 100%;
 }
 
-main .logo {
-  width: 350px;
-  padding-top: 80px;
-  float: none;
-  margin: 0;
-}
 
 main h1 {
-  font-size: 40px;
-  padding: 60px 10px 30px 10px;
+  width: auto;
+  font-size: 65px;
+  padding: 100px 20px 60px 20px;
 }
 
 main h3 {
+  font-size: 27px;
+  padding: 0px 20px 100px 20px;
+}
+
+main .intro p {
+  width: auto;
+}
+
+main .list-intro p {
+  width: auto;
+  padding: 100px 20px 80px 20px;
   font-size: 25px;
 }
 
 main .signup-form {
-  width: 100%;
-  padding: 60px 10px 30px 10px;
+  width: 90%;
+  padding: 0px 30px 20px 30px;
   box-sizing: border-box;
 }
 
 main .signup-form input {
   width: 100%;
-  font-size: 35px;
+  font-size: 45px;
+  padding: 40px 30px;
 }
 
 main .signup-form input[type=submit] {
-  font-size: 35px;
+  font-size: 45px;
+}
+
+main .list-text p{
+  width: auto;
+  padding: 80px 20px 0px 20px;
+}
+
+main .coming-soon {
+  position: static;
+  width: 80%;
+  padding: 100px 0 100px 0;
 }
 
 main p {
   width: auto;
   padding: 0 10px 40px 10px;
-}
-
-main .launching-soon {
-  position: static;
-  width: 300px;
-  padding: 60px 0 80px 0;
 }
 
 .quote-block {
@@ -72,28 +84,27 @@ main .launching-soon {
 }
 
 footer {
-  font-size: 10px;
+  font-size: 20px;
   width: 100%;
 }
 
 footer .hubble-explanation {
-  font-size: 10px;
-  padding: 10px 10px 60px 10px;
+  font-size: 20px;
+  padding: 30px 10px 200px 10px;
 }
 
 footer .becky {
   display: block;
-  padding: 0;
 }
 
 footer .cratejoy {
   display: block;
-  padding: 0 0 60px 0;
+  padding: 10px 0 100px 0;
   float: none;
 }
 
 footer .all-rights {
   display: block;
   float: none;
-  padding: 60px 0 0 0;
+  padding: 200px 0 10px 0;
 }
