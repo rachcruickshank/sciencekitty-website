@@ -29,7 +29,7 @@ a {
 .top-images .image-block {
   width: 100%;
   height:75vh;
-  background-image: url(https://s3.amazonaws.com/cratejoy_vendor_images/sciencekittyltd/joybox_women-copy-0/images/Box-banner.jpg);
+  background-image: url(images/Box-banner.jpg);
   background-size: cover;
   background-position: bottom center;
 
@@ -135,7 +135,7 @@ main .coming-soon {
   clear: both;
   width: 100%;
   height: auto;
-  background-image: url(https://s3.amazonaws.com/cratejoy_vendor_images/sciencekittyltd/joybox_women-copy-0/images/ScienceKitty-product.jpg);
+  background-image: url(images/ScienceKitty-product.jpg);
   background-size: cover;
   color: #151515;
   font-family: orbitron, play, sans-serif;
