@@ -1,5 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Oleo+Script);
 @import url(https://fonts.googleapis.com/css?family=Special+Elite);
+@import url(https://fonts.googleapis.com/css?family=Cutive);
 
 * {
   margin: 0;
@@ -9,7 +10,6 @@
 html {
   background-color: #fafafa;
   color: #151515;
-  font-family: Play, Arial, sans-serif;
 }
 
 body {
@@ -57,22 +57,43 @@ main {
   background-color: #FFFFCC;
   color: #492221;
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
+  font-family: Cutive, sans-serif;
 }
 
 
 main h1 {
-  font-size: 50px;
-  font-family: Special Elite, sans-serif;
-  padding: 40px 25px 20px 25px;
+  font-size: 45px;
+  line-height: 1.1;
+  margin-top: 20px;
+  padding: 30px 25px 20px 25px;
   text-align: center;
   text-shadow: 0 0 5px rgba(0,0,0,0.2);
+
+  width: 105%;
+  box-sizing: border-box;
+  margin-left: -5%;
+
+  color: #fff;
+  background-color: #58b72a;
+  position: relative;
+  box-shadow: -10px 2px 10px rgba(0,0,0,0.2);
+}
+
+main h1:before {
+  content: "";
+  position: absolute;
+  top: 100%;
+  left: 0;
+  border-width: 0 25px 25px 0;
+  border-style: solid;
+  border-color: transparent #307020;
 }
 
 main li {
   list-style-type: none;
-  font-size: 30px;
-  font-family: Special Elite, sans-serif;
-  padding: 20px 0px 0px 0px;
+  font-size: 25px;
+  font-weight: bold;
+  padding: 20px 0px 10px 0px;
   text-align: center;
 }
 
@@ -95,9 +116,9 @@ main .signup-form input {
 
   border-radius: 4px;
 
-  font-family: Special Elite, sans-serif;
   font-size: 25px;
   color: #492221;
+  font-family: Cutive, sans-serif;
 }
 
 main .signup-form input[type=submit] {
@@ -106,9 +127,10 @@ main .signup-form input[type=submit] {
   font-weight: bold;
   font-size: 25px;
   cursor: pointer;
-  color: #FFFFCC;
+  color: #fff;
   text-shadow: 0 0 10px rgba(0,0,0,0.6);
-  background: linear-gradient(180deg, #113F60, #0E2E46);
+  background-color: #58b72a;
+  border: none;
 }
 
 main .contact{
