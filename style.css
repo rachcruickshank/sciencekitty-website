@@ -1,5 +1,5 @@
-@import url(https://fonts.googleapis.com/css?family=Play);
-@import url(https://fonts.googleapis.com/css?family=Orbitron:700,500);
+@import url(https://fonts.googleapis.com/css?family=Oleo+Script);
+@import url(https://fonts.googleapis.com/css?family=Special+Elite);
 
 * {
   margin: 0;
@@ -14,6 +14,7 @@ html {
 
 body {
   margin: 0 auto 0 auto;
+  text-align: center;
 }
 
 a {
@@ -21,75 +22,64 @@ a {
   text-decoration: none;
 }
 
-.top-images {
+.top-image-container{
   width: 100%;
-  height: 75vh;
-}
-
-.top-images .image-block {
-  width: 100%;
-  height:75vh;
-  background-image: url(images/Box-banner.jpg);
-  background-size: cover;
-  background-position: bottom center;
-
-  background-color: #fafafa;
+  height: 100vh;
+  margin-right: -500px;
   float: left;
 }
 
+.top-image {
+  height: 100vh;
+  margin-right: 500px;
+  background-image: url(images/woman-banner.jpg);
+  background-size: cover;
+  background-position: center center;
+  background-color: #FFFFCC;
+}
 
-.main-container {
-  width: 100%;
-  box-shadow: 0 0 30px rgba(0,0,0,0.6);
-  position: relative;
-  z-index: 1;
+.logo{
+color: #FFFFCC;
+font-size: 65px;
+font-family: Oleo Script ,sans-serif;
+position: absolute;
+top: 40px;
+left: 20px;
+text-align: left;
+line-height: 0.8;
+text-shadow: 0 0 20px #000;
 }
 
 main {
-  width: 80%;
-  margin: 0 auto;
-  text-align: center;
-  position: relative;
+  width: 500px;
+  height: 100vh;
+  float: right;
+  background-color: #FFFFCC;
+  color: #492221;
+  box-shadow: 0 0 10px rgba(0,0,0,0.8);
 }
 
-main .logo {
-  float: center;
-  margin: auto;;
-  width: 300px;
-  padding: 0 0 80px 0
-}
 
 main h1 {
-  font-size: 45px;
-  padding: 65px 10px 40px 10px;
-  font-family: orbitron, play, sans-serif;
+  font-size: 50px;
+  font-family: Special Elite, sans-serif;
+  padding: 40px 25px 20px 25px;
+  text-align: center;
+  text-shadow: 0 0 5px rgba(0,0,0,0.2);
 }
 
-main h3 {
+main li {
+  list-style-type: none;
   font-size: 30px;
-  font-family: orbitron, play, sans-serif;
-  padding: 0px 10px 65px 10px;
-}
-
-main .intro p {
-  width: 80%;
-  margin: 0 auto;
-  padding: 0px 20px 30px 20px;
-  font-size:25px;
-}
-
-
-main .list-intro p {
-  width: 800px;
-  margin: 0 auto;
-  padding: 0px 0 25px 0;
-  font-size: 25px;
+  font-family: Special Elite, sans-serif;
+  padding: 20px 0px 0px 0px;
+  text-align: center;
 }
 
 main .signup-form {
-  width: 500px;
+  width: 300px;
   margin: 0 auto;
-  padding: 10px 30px 10px 30px;
+  padding: 20px 30px 10px 30px;
 }
 
 main .signup-form input {
@@ -97,93 +87,36 @@ main .signup-form input {
   box-sizing: border-box;
   margin: 0 4% 10px 0;
   padding: 20px;
-  width: 500px;
+  width: 300px;
 
   border: 1px;
   border-style: solid;
-  border-color: #cfcfcf;
+  border-color: #492221;
+
   border-radius: 4px;
 
-  font-family: orbitron, sans-serif;
-  font-size: 40px;
-  color: #151515;
+  font-family: Special Elite, sans-serif;
+  font-size: 25px;
+  color: #492221;
 }
 
 main .signup-form input[type=submit] {
-  background-color: #80CC28;
-  background: linear-gradient(180deg, #80CC28, #80CC28 80%, #40B020);
+  background-color: #fafafa;
+  background: #492221;
   font-weight: bold;
-  font-size: 40px;
-  cursor: pointer;
-  color: #efefef;
-  text-shadow: 0 0 10px rgba(0,0,0,0.6);
-}
-
-main .list-text p {
-  width: 800px;
-  margin: 0 auto;
-  padding: 25px 0 25px 0;
   font-size: 25px;
+  cursor: pointer;
+  color: #FFFFCC;
+  text-shadow: 0 0 10px rgba(0,0,0,0.6);
+  background: linear-gradient(180deg, #113F60, #0E2E46);
 }
 
-main .coming-soon {
-  position: relative;
-  padding: 35px 20px 60px 20px;
-}
-
-.quote-block {
-  clear: both;
-  width: 100%;
-  height: auto;
-  background-image: url(images/ScienceKitty-product.jpg);
-  background-size: cover;
-  color: #151515;
-  font-family: orbitron, play, sans-serif;
-
-  position: relative;
-}
-
-.quote-block blockquote {
-  width: 1000px;
-  margin: 0 auto;
-  font-size: 30px;
-  text-shadow: 0 0 10px rgba(0,0,0,0.1);
-  text-align: center;
-  padding: 150px
-}
-
-.quote-block cite{
-  font-family: play, sans-serif;
-  font-size: 30px
+main .contact{
+  padding: 10px 0px 10px 0px;
 }
 
 
-footer {
-  width: 1170px;
-  text-align: center;
-  margin: 0 auto;
-  font-family: play, sans-serif;
-  font-size: 20px
-}
-footer .hubble-explanation {
-  font-family: play, sans-serif;
-  font-size: 15px;
-    padding: 5px 0 65px 0
-}
-
-footer .becky {
-  display: inline-block;
-  padding: 65px 0 40px 0;
-}
-
-footer .cratejoy {
-  display: inline-block;
-  float: right;
-  padding: 65px 0 40px 0;
-}
-
-footer .all-rights{
-  display: inline-block;
-  float: left;
-  padding: 65px 0 40px 0;
-}
+main .all-rights {
+  padding: 10px 0px 5px 0px;
+  font-size: 12px;
+  }
