@@ -43,11 +43,12 @@ color: #FFFFCC;
 font-size: 65px;
 font-family: Oleo Script ,sans-serif;
 position: absolute;
-top: 40px;
-left: 20px;
-text-align: left;
+bottom: 25px;
+right: 550px;
+text-align: right;
 line-height: 0.8;
-text-shadow: 0 0 20px #000;
+text-shadow: -2px -2px 0px #000;
+color: #58b72a;
 }
 
 main {
@@ -132,13 +133,3 @@ main .signup-form input[type=submit] {
   background-color: #58b72a;
   border: none;
 }
-
-main .contact{
-  padding: 10px 0px 10px 0px;
-}
-
-
-main .all-rights {
-  padding: 10px 0px 5px 0px;
-  font-size: 12px;
-  }

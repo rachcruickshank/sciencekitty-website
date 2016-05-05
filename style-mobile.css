@@ -1,110 +1,51 @@
-.top-images {
-  height: 45vh;
+.top-image-container {
+  height: 75vw;
+  margin-right: 0;
 }
 
-.top-images .image-block {
-  height: 45vh;
+.top-image{
+  height: 75vw;
+  margin-right: 0;
 }
 
-.top-images .play {
-  background-position: 82% bottom;
+.logo{
+  position: absolute;
+  top: 400px;
+  right: 30px;
+  font-size: 120px;
 }
 
-main {
+main{
   width: 100%;
 }
 
-
-main h1 {
-  width: auto;
-  font-size: 65px;
-  padding: 100px 20px 60px 20px;
+main h1{
+  width: 100%;
+  margin-left: 0px;
+  margin-top: 0px;
+  font-size: 80px;
+  padding: 60px 0px 60px 0px;
 }
 
-main h3 {
-  font-size: 27px;
-  padding: 0px 20px 100px 20px;
+main h1:before{
+  border-width: 0 0 0 0;
 }
 
-main .intro p {
-  width: auto;
-}
-
-main .list-intro p {
-  width: auto;
-  padding: 100px 20px 80px 20px;
-  font-size: 25px;
+main li{
+  font-size: 60px;
+  padding: 60px 0px 60px 0px;
 }
 
 main .signup-form {
-  width: 90%;
-  padding: 0px 30px 20px 30px;
-  box-sizing: border-box;
+  width: 80%;
+  font-size: 60px;
 }
 
-main .signup-form input {
+main .signup-form input{
   width: 100%;
-  font-size: 45px;
-  padding: 40px 30px;
+  font-size: 60px;
 }
 
 main .signup-form input[type=submit] {
-  font-size: 45px;
-}
-
-main .list-text p{
-  width: auto;
-  padding: 80px 20px 0px 20px;
-}
-
-main .coming-soon {
-  position: static;
-  width: 80%;
-  padding: 100px 0 100px 0;
-}
-
-main p {
-  width: auto;
-  padding: 0 10px 40px 10px;
-}
-
-.quote-block {
-  height: auto;
-  background-position: 35% bottom;
-}
-
-.quote-block blockquote {
-  width: auto;
-  font-size: 40px;
-  padding: 60px 10px;
-}
-
-.quote-block cite {
-  font-size: 25px;
-}
-
-footer {
-  font-size: 20px;
-  width: 100%;
-}
-
-footer .hubble-explanation {
-  font-size: 20px;
-  padding: 30px 10px 200px 10px;
-}
-
-footer .becky {
-  display: block;
-}
-
-footer .cratejoy {
-  display: block;
-  padding: 10px 0 100px 0;
-  float: none;
-}
-
-footer .all-rights {
-  display: block;
-  float: none;
-  padding: 200px 0 10px 0;
+  font-size: 60px;
 }
