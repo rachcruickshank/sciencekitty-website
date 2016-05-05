@@ -59,6 +59,7 @@ main {
   color: #492221;
   box-shadow: 0 0 10px rgba(0,0,0,0.8);
   font-family: Cutive, sans-serif;
+  position: relative;
 }
 
 
@@ -132,4 +133,16 @@ main .signup-form input[type=submit] {
   text-shadow: 0 0 10px rgba(0,0,0,0.6);
   background-color: #58b72a;
   border: none;
+}
+
+main .info{
+  font-size: 12px;
+}
+
+main .company-legal{
+  font-size: 10px;
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  right: 0;
 }

@@ -17,13 +17,14 @@
 
 main{
   width: 100%;
+  height: auto;
 }
 
 main h1{
   width: 100%;
   margin-left: 0px;
   margin-top: 0px;
-  font-size: 80px;
+  font-size: 100px;
   padding: 60px 0px 60px 0px;
 }
 
@@ -38,7 +39,7 @@ main li{
 
 main .signup-form {
   width: 80%;
-  font-size: 60px;
+  font-size: 80px;
 }
 
 main .signup-form input{
@@ -48,4 +49,9 @@ main .signup-form input{
 
 main .signup-form input[type=submit] {
   font-size: 60px;
+  margin-bottom: 180px;
+}
+
+main .company-legal{
+  font-size: 20px;
 }
