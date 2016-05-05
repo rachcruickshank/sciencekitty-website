@@ -43,7 +43,7 @@ color: #FFFFCC;
 font-size: 65px;
 font-family: Oleo Script ,sans-serif;
 position: absolute;
-bottom: 25px;
+bottom: 28px;
 right: 550px;
 text-align: right;
 line-height: 0.8;
@@ -102,7 +102,7 @@ main li {
 main .signup-form {
   width: 300px;
   margin: 0 auto;
-  padding: 20px 30px 10px 30px;
+  padding: 20px 30px 0px 30px;
 }
 
 main .signup-form input {
